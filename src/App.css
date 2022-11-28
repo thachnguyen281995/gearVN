@@ -27,6 +27,36 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
-  
+  .swiper-button-prev:after,
+  .swiper-button-next:after{
+    font-size: 22px !important;
+    font-weight: bold;
+    color: white;
+  } 
+  .ant-menu-item-selected{
+    /* background-color: */
+  }
+/* width */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #cfc4c4 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cfc4c4;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }

@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+NavBar
+<nav>
+                        <ul className="flex flex-col p-4 text-gray-800">
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <TbTruckDelivery size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=30245" alt="" className="h-5"/>
+                                Laptop Gaming
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <MdFavorite size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx28.png?v=30245" alt="" className="h-5"/>
+                                Apple
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <FaWallet size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=30245" alt="" className="h-5"/>
+                                Bàn phím
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <MdHelp size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=30245" alt="" className="h-5"/>
+                                Tai nghe - Loa
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <AiFillTag size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx113.png?v=30245" alt="" className="h-5"/>
+                                Ghế - Bàn
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <BsFillSaveFill size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx114.png?v=30245" alt="" className="h-5"/>
+                                Thiết bị văn phòng
+                            </li>
+                            <li className="text-base py-4 flex items-center gap-2 cursor-pointer hover:text-[#ea1c00]">
+                                {/* <FaUserFriends size={25} className="mr-4" /> */}
+                                <img src="https://theme.hstatic.net/1000026716/1000440777/14/xxx216.png?v=30245" alt="" className="h-5"/>
+                                Phụ kiện
+                            </li>
+                        </ul>
+                    </nav>

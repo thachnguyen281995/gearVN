@@ -7,6 +7,17 @@
     @apply border border-black rounded-xl px-5 py-1
   }
   body{
-    @apply font-abc
+    @apply font-roboto
   }
+}
+@layer components{
+ .background-apple{
+  background-image: url("https://w.ladicdn.com/s1440x883/5bf3dc7edc60303c34e4991f/apple-ld-15-20220711103012.jpg");
+ }
+ .background-laptop{
+  background-image: url("https://w.ladicdn.com/s700x2400/5bf3dc7edc60303c34e4991f/123123123-20221116075646-_6pyu.jpg");
+ }
+ .background-laptop__item{
+  background-image: url("https://w.ladicdn.com/s1550x1750/5bf3dc7edc60303c34e4991f/1-05-20221115083832--0hro.png");
+ }
 }
