@@ -4,7 +4,7 @@ import Banner1 from "../images/apple/banner-1.png";
 const ApplePage = () => {
     return (
         <div>
-            <div class="header-2">
+            <div className="header-2">
               
                 {/* Banner Header Main */}
                 <div className="relative">
@@ -70,7 +70,7 @@ const ApplePage = () => {
                         />
                     </div>
                 </div>
-                <div class="">
+                <div className="">
                     <div className="background-apple grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s800x450/5bf3dc7edc60303c34e4991f/apple-ld-08-20220711094625.png"
@@ -105,7 +105,7 @@ const ApplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-16-20220712022513.png"
@@ -150,7 +150,7 @@ const ApplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-22-20220712040639.png"
@@ -190,7 +190,7 @@ const ApplePage = () => {
                        
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-41-20220712070630.png"
@@ -230,7 +230,7 @@ const ApplePage = () => {
                        
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-27-20220712045715.png"
@@ -273,7 +273,7 @@ const ApplePage = () => {
                        
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-33-20220712062848.png"
@@ -306,7 +306,7 @@ const ApplePage = () => {
                        
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#f1f2f6] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1400x500/5bf3dc7edc60303c34e4991f/apple-ld-36-20220712065133.png"

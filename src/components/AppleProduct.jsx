@@ -53,16 +53,16 @@ const AppleProduct = () => {
     return (
         <>
            
-                <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12 mb-5 ">
-                <span className='md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-2 px-4 text-white font-bold rounded  transition-colors duration-300 text-3xl '>Apple</span>
+                <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12 mb-5 max-[600px]:grid max-[600px]:place-items-center">
+                <span className='md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-2 px-4 text-white font-bold rounded  transition-colors duration-300 text-3xl '>Macbook</span>
             <Link to="/apple">
-                    <div class="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6  flex-col justify-center relative rounded mx-auto">
-              <div class="flex flex-col justify-center">
-                <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">Apple</h1>
-                <p class="text-base lg:text-xl text-white dark:text-white">Best Seller <span class="font-bold"></span></p>
+                    <div className="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6  flex-col justify-center relative rounded mx-auto">
+              <div className="flex flex-col justify-center">
+                <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">Macbook</h1>
+                <p className="text-base lg:text-xl text-white dark:text-white">Best Seller <span className="font-bold"></span></p>
               </div>
-              <div class="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0 hover:scale-150 cursor-pointer duration-300">
-                <img src={Applebanner} alt="" class="md:w-20 md:h-20 lg:w-20 lg:h-20" />
+              <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0 hover:scale-150 cursor-pointer duration-300">
+                <img src={Applebanner} alt="" className="md:w-20 md:h-20 lg:w-20 lg:h-20" />
               </div>
             </div>
             </Link>
