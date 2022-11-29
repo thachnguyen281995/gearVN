@@ -1,18 +1,17 @@
 import React, { useState } from "react";
-import { data } from "../data/data.js";
-import { MdComputer } from "react-icons/md";
-import { ImKeyboard } from "react-icons/im";
-import { RiComputerLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
-import BannerPc from "../images/computer.png"
+import  dataAppleProduct  from "../data/dataappleproduct";
+import { Link } from 'react-router-dom';
+import Applebanner from "../images/applebannerv2.png";
 
-const Products = () => {
-    const products = data.map((product) => {
+// Import Swiper styles
+
+const AppleProduct = () => {
+    const products = dataAppleProduct.map((product) => {
         
         return (
             
             <div key={product.id}>
-                <Link to={`/products/${product.id}`}>
+                <Link to={`/appleproduct/${product.id}`}>
                     <div className="w-72 bg-white shadow-md rounded-xl duration-300 hover:scale-105 hover:shadow-xl">
                         <img
                             src={product.image}
@@ -53,21 +52,26 @@ const Products = () => {
     });
     return (
         <>
-            <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12 mb-5">
-            <span className='md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-2 px-4 text-white font-bold rounded ml-2 mt-2 transition-colors duration-300 text-3xl '>PC Gaming </span>
-            <div class="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex-col justify-center relative rounded">
-      <div class="flex flex-col justify-center">
-        <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">Pc Gaming</h1>
-        <p class="text-base lg:text-xl text-white dark:text-white">Best Seller <span class="font-bold"></span></p>
-      </div>
-      <div class="flex justify-end md:absolute md:bottom-4 md:right-4  lg:right-0 hover:scale-125 cursor-pointer duration-300">
-        <img src={BannerPc} alt="" class="md:w-20 md:h-20 lg:w-full lg:h-full" />
-      </div>
-    </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 pt-10">{products}</div>
+           
+                <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12">
+                <span className='md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-2 px-4 text-white font-bold rounded  transition-colors duration-300 text-3xl '>Apple</span>
+            <Link to="/apple">
+                    <div class="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6  flex-col justify-center relative rounded">
+              <div class="flex flex-col justify-center">
+                <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">Apple</h1>
+                <p class="text-base lg:text-xl text-white dark:text-white">Best Seller <span class="font-bold"></span></p>
+              </div>
+              <div class="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0 hover:scale-150 cursor-pointer duration-300">
+                <img src={Applebanner} alt="" class="md:w-20 md:h-20 lg:w-20 lg:h-20" />
+              </div>
             </div>
+            </Link>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 pt-10">{products}</div>
+             
+                </div>
+           
         </>
     );
 };
 
-export default Products;
+export default AppleProduct;

@@ -2,7 +2,6 @@ import React from "react";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 import Logo from "../images/logoGearvn.png";
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
 const Register = () => {
     return (
@@ -25,46 +24,34 @@ const Register = () => {
                     <form class="mt-8 space-y-6" action="#" method="POST">
                         <input type="hidden" name="remember" value="true" />
                         <div class="">
-                            <div className="">
-                                <label for="name" class="sr-only">
-                                    Name
-                                </label>
+                            <div className="mb-2">
+                               
                                 <input
                                     class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
                                     type="text"
                                     placeholder="Họ và tên"
                                 />
+                                
                             </div>
-                            <div className="py-4">
-                                <label for="email" class="sr-only">
-                                    Email
-                                </label>
-                                <input
-                                    class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
-                                    type="email"
-                                    placeholder="Email"
-                                />
-                            </div>
-                            <div className="py-4">
-                                <label for="password" class="sr-only">
-                                    Password
-                                </label>
-                                <input
-                                    class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
-                                    type="password"
-                                    placeholder="Mật khẩu"
-                                />
-                            </div>
-                            <div className="py-4">
-                                <label for="phone" class="sr-only">
-                                    Số điên thoại
-                                </label>
-                                <input
-                                    class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
-                                    type="text"
-                                    placeholder="Số điện thoại"
-                                />
-                            </div>
+                            <div className="mb-2">
+                               
+                               <input
+                                   class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
+                                   type="email"
+                                   placeholder="Email"
+                               />
+                               
+                           </div>
+                           <div className="mb-2">
+                               
+                               <input
+                                   class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none "
+                                   type="password   "
+                                   placeholder="Password"
+                               />
+                               
+                           </div>
+                       
                         </div>
 
                         <div class="flex items-center justify-between">
@@ -107,7 +94,6 @@ const Register = () => {
                     </form>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };
