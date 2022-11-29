@@ -53,10 +53,10 @@ const AppleProduct = () => {
     return (
         <>
            
-                <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12">
+                <div className="max-w-[1640px] m-auto px-4 py-2 md:py-12 mb-5 ">
                 <span className='md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  py-2 px-4 text-white font-bold rounded  transition-colors duration-300 text-3xl '>Apple</span>
             <Link to="/apple">
-                    <div class="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6  flex-col justify-center relative rounded">
+                    <div class="hidden md:flex md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-6 px-6 md:py-0 md:px-4 lg:px-6  flex-col justify-center relative rounded mx-auto">
               <div class="flex flex-col justify-center">
                 <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">Apple</h1>
                 <p class="text-base lg:text-xl text-white dark:text-white">Best Seller <span class="font-bold"></span></p>
