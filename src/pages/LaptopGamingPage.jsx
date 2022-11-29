@@ -4,7 +4,7 @@ import Banner1 from "../images/apple/banner-1.png";
 const LaptopGamingPage = () => {
     return (
         <div>
-            <div class="header-2">
+            <div className="header-2">
                 {/* Banner Header Main */}
                 <div className="relative">
                     <img
@@ -69,7 +69,7 @@ const LaptopGamingPage = () => {
                         />
                     </div>
                 </div> */}
-                <div class="-mt-2">
+                <div className="-mt-2">
                     <div className="background-laptop grid place-items-center">
                         <div className="">
                             <img
@@ -166,7 +166,7 @@ const LaptopGamingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="mb-2">
+                <div className="mb-2">
                     <div className="bg-[#2c0291] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1150x450/5bf3dc7edc60303c34e4991f/1-14-20221115095446-h4f_e.png"
@@ -226,7 +226,7 @@ const LaptopGamingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="-mt-2">
+                <div className="-mt-2">
                     <div className="bg-[#3426c2] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1150x450/5bf3dc7edc60303c34e4991f/title-22-20221116030417-__xb5.png"
@@ -292,7 +292,7 @@ const LaptopGamingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="-mt-2">
+                <div className="-mt-2">
                     <div className="bg-[#2c0291] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1150x450/5bf3dc7edc60303c34e4991f/title-23-20221116040807-bpcsb.png"
@@ -376,7 +376,7 @@ const LaptopGamingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="-mt-2 ">
+                <div className="-mt-2 ">
                     <div className="bg-[#3426c2] grid place-items-center">
                         <img
                             src="https://w.ladicdn.com/s1150x450/5bf3dc7edc60303c34e4991f/title-24-20221116040807-3bvfe.png"

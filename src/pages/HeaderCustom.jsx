@@ -4,9 +4,9 @@ import Logo from "../images/logoGearvn.png";
 const HeaderCustom = () => {
   return (
     <div>
-          <nav class="bg-white py-2 md:py-4">
-                    <div class="container px-4 mx-auto md:flex md:items-center">
-                        <div class="flex justify-center md:justify-between items-center">
+          <nav className="bg-white py-2 md:py-4">
+                    <div className="container px-4 mx-auto md:flex md:items-center">
+                        <div className="flex justify-center md:justify-between items-center">
                             <Link to="/" >
                                 <img
                                     src="https://theme.hstatic.net/1000026716/1000440777/14/logo.svg?v=30245"
@@ -17,25 +17,25 @@ const HeaderCustom = () => {
                             </Link>
                         </div>
 
-                        <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
-                            <Link to="#" class="p-2 lg:px-4 md:mx-2 text-gray-600  font-bold hover:text-red-600">
+                        <div className="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
+                            <Link to="#" className="p-2 lg:px-4 md:mx-2 text-gray-600  font-bold hover:text-red-600">
                                 Hệ Thống Showroom
                             </Link>
                             <Link
                                 to="#"
-                                class="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
+                                className="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
                             >
                                 Trả Góp
                             </Link>
                             <Link
                                 to="#"
-                                class="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
+                                className="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
                             >
                                 Bảo Hành
                             </Link>
                             <Link
                                 to="#"
-                                class="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
+                                className="p-2 lg:px-4 md:mx-2 text-gray-600 font-bold  rounded  hover:text-red-600 transition-colors duration-300"
                             >
                                 Liên Hệ
                             </Link>

@@ -1,6 +1,5 @@
 import React from "react";
 
-import Banner1 from "../images/apple/banner-1.png";
 const ApplePage = () => {
     return (
         <div>

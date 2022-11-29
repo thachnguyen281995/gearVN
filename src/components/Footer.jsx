@@ -1,6 +1,7 @@
 import React from 'react'
 import {AiFillFacebook} from "react-icons/ai"
 import {BsInstagram} from "react-icons/bs"
+import {Link} from "react-router-dom"
 const Footer = () => {
   return (
     <div>
@@ -30,10 +31,10 @@ const Footer = () => {
           <div className="sm:flex-1">
             <h6 className="text-base font-medium text-white uppercase mb-2">HỆ THỐNG CỬA HÀNG</h6>
             <div className=''>
-              <a href="#" className="text-gray-400 py-1 block">Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</a>
-              <a href="#" className="text-gray-400 py-1 block">Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức</a>
-              <a href="#" className="text-gray-400 py-1 block">Địa chỉ 3: 1081 - 1083 Trần Hưng Đạo, Phường 5, Quận 5</a>
-              <a href="#" className="text-gray-400 py-1 block">Địa chỉ : 162 - 164 Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội</a>
+              <Link to="#" className="text-gray-400 py-1 block">Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</Link>
+              <Link to="#" className="text-gray-400 py-1 block">Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức</Link>
+              <Link to="#" className="text-gray-400 py-1 block">Địa chỉ 3: 1081 - 1083 Trần Hưng Đạo, Phường 5, Quận 5</Link>
+              <Link to="#" className="text-gray-400 py-1 block">Địa chỉ : 162 - 164 Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội</Link>
             </div>
           </div>
          
@@ -61,8 +62,8 @@ const Footer = () => {
  
         </div>
         <div className="md:flex-1 md:px-4 text-center md:text-right items-center flex">
-          <a href="#" className="py-2 px-4 text-white inline-block hover:underline"><img className="h-12" src="https://theme.hstatic.net/1000026716/1000440777/14/20150827110756-dathongbao.png" alt="" /></a>
-          <a href="#" className="py-2 px-4 text-white inline-block hover:underline"><img className="h-7" src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=65147526-7602-46be-9047-e8c33f9fcbd3" alt="" /></a>
+          <Link to="#" className="py-2 px-4 text-white inline-block hover:underline"><img className="h-12" src="https://theme.hstatic.net/1000026716/1000440777/14/20150827110756-dathongbao.png" alt="" /></Link>
+          <Link href="#" className="py-2 px-4 text-white inline-block hover:underline"><img className="h-7" src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=65147526-7602-46be-9047-e8c33f9fcbd3" alt="" /></Link>
         </div>
       </div>
 

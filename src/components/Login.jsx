@@ -42,7 +42,7 @@ const Login = () => {
                                 />
                             </div>
                             <div>
-                                <label for="password" class="sr-only">
+                                <label for="password" className="sr-only">
                                     Password
                                 </label>
                                 <input
